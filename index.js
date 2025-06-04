@@ -40,8 +40,8 @@ app.post('/api/check-vehicle', async (req, res) => {
                 loaixe: "1",
                 bsx: "",
                 bsxdangkiem: licensePlate,
-                bien: "V",
-                tem: "EA-1928643"
+                bien: bien,
+                tem: tem
             });
 
             const headers = {
